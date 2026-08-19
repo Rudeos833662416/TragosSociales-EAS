@@ -1,0 +1,26 @@
+{
+  "expo": {
+    "name": "Tragos Sociales",
+    "slug": "socialsip",
+    "owner": "jesus31973479",
+    "version": "1.0.0",
+    "scheme": "socialsip",
+    "android": {
+      "package": "com.app.socialsip",
+      "scheme": "socialsip",
+      "intentFilters": [
+        {
+          "action": "VIEW",
+          "data": [{ "scheme": "socialsip", "host": "auth", "pathPrefix": "/callback" }],
+          "category": ["BROWSABLE", "DEFAULT"]
+        }
+      ]
+    },
+    "extra": {
+      "appSubtitle": "time to drink",
+      "eas": { "projectId": "f4eb060a-a0e9-4124-9b02-2087982bdd05" },
+      "supabaseUrl": "https://cymhbwgxmezrwofkbdqz.supabase.co",
+      "supabaseAnonKey": "sb_publishable_V-Tjv6qV2JaEdXyumlGZ8w_HbdPp7iD"
+    }
+  }
+}

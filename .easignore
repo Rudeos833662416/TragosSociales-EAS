@@ -1,0 +1,15 @@
+# Artefactos y cachés locales: nunca se suben a EAS Build.
+node_modules/
+.expo/
+.git/
+updates/
+apks/
+*.apk
+*.aab
+*.zip
+*.log
+
+# Salidas generadas por Gradle: la fuente Android sí se conserva.
+android/.gradle/
+android/build/
+android/app/build/
